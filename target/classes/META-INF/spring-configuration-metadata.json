@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "spring.redis.cluster.cache",
+      "type": "com.yangk.baseproject.common.config.RedisClusterProperties",
+      "sourceType": "com.yangk.baseproject.common.config.RedisClusterProperties"
+    },
+    {
+      "name": "zookeeper",
+      "type": "com.yangk.baseproject.common.zookeeper.ZookeeperProperties",
+      "sourceType": "com.yangk.baseproject.common.zookeeper.ZookeeperProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.redis.cluster.cache.cluster-nodes",
+      "type": "java.lang.String",
+      "sourceType": "com.yangk.baseproject.common.config.RedisClusterProperties"
+    },
+    {
+      "name": "spring.redis.cluster.cache.command-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yangk.baseproject.common.config.RedisClusterProperties"
+    },
+    {
+      "name": "spring.redis.cluster.cache.password",
+      "type": "java.lang.String",
+      "sourceType": "com.yangk.baseproject.common.config.RedisClusterProperties"
+    },
+    {
+      "name": "zookeeper.addresses",
+      "type": "java.lang.String",
+      "sourceType": "com.yangk.baseproject.common.zookeeper.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yangk.baseproject.common.zookeeper.ZookeeperProperties"
+    }
+  ],
+  "hints": []
+}

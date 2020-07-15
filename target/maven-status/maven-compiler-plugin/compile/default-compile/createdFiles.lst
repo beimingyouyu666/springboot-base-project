@@ -1,0 +1,3 @@
+com\fpx\wmsau\remote\ParcelShelfRemote.class
+com\fpx\wmsau\domain\dto\ParcelShelfDTO.class
+com\fpx\wmsau\controller\TestController.class

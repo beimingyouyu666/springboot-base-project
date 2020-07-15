@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <!--开启消息确认 publisher-confirms="true"-->
+    <rabbit:connection-factory
+            id="connectionFactory"
+            addresses="${spring.rabbitmq.addresses}"
+            username="${spring.rabbitmq.username}"
+            channel-cache-size="50"
+            requested-heartbeat="20"
+            password="${spring.rabbitmq.password}"
+            virtual-host="${spring.rabbitmq.virtual-host}"
+            publisher-confirms="true" />
+
+    <rabbit:admin
+            id="rabbitAdmin"
+            connection-factory="connectionFactory" />
+
+    <rabbit:template
+            id="rabbitTemplate"
+            connection-factory="connectionFactory"
+            confirm-callback="rabbitmqConfirmService"
+            message-converter="fastjsonConverter"></rabbit:template>
+
+    <!--队列定义配置文件存放路径-->
+    <import resource="classpath*:rabbitmq/rabbitmq-*.xml" />
+
+    <!--定义正常交换器-->
+    <rabbit:direct-exchange name="springboot-base-project-rabbit-x-exchange" durable="false"
+                            auto-delete="false" id="springboot-base-project-rabbit-x-exchange" declared-by="rabbitAdmin">
+        <rabbit:bindings>
+            <rabbit:binding queue="springboot-base-project-rabbit-q-test1" key="springboot-base-project-rabbit-r-test" />
+            <rabbit:binding queue="springboot-base-project-rabbit-q-test2" key="springboot-base-project-rabbit-r-test" />
+        </rabbit:bindings>
+    </rabbit:direct-exchange>
+
+    <!--定义死信交换器-->
+    <rabbit:direct-exchange name="springboot-base-project-rabbit-x-exchange-dead" durable="false"
+                            auto-delete="false" id="springboot-base-project-rabbit-x-exchange-dead" declared-by="rabbitAdmin">
+        <rabbit:bindings>
+            <rabbit:binding queue="springboot-base-project-rabbit-q-test1-dead" key="springboot-base-project-rabbit-r-test"/>
+            <rabbit:binding queue="springboot-base-project-rabbit-q-test2-dead" key="springboot-base-project-rabbit-r-test-dead"/>
+        </rabbit:bindings>
+    </rabbit:direct-exchange>
+</beans>

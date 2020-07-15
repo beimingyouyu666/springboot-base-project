@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+    <property name="LOG_BASE" value="/usr/local/logs/gds-parent/springboot-base-project"/>    <!-- 日志存储的路径 -->
+    <property name="LOG_APP_NAME" value="springboot-base-project"/>
+
+    <!-- 控制台输出 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d [%X{traceId}] [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </layout>
+    </appender>
+
+    <!--打印所有级别的日志-->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_BASE}/wms-all.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_BASE}/backup/wms-all.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <!--日志保存天数-->
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>5GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d [%X{traceId}] [${LOG_APP_NAME}] [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <!-- 只打印错误日志 -->
+    <appender name="ERROR_LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_BASE}/wms-error.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_BASE}/backup/wms-error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <!--日志保存天数-->
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>5GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d [%X{traceId}] [${LOG_APP_NAME}] [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--业务日志 -->
+    <appender name="BIZ_ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_BASE}/wms-biz.log</file>
+        <!--只打印INFO-->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_BASE}/backup/wms-biz.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <!--日志保存天数-->
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>5GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d [%X{traceId}] [${LOG_APP_NAME}] [%thread] %-5level %logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--监控接口调用日志-->
+    <appender name="access_log" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_BASE}/wms_assess.log</File>
+        <append>true</append>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>DENY</onMatch>
+            <onMismatch>ACCEPT</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_BASE}/backup/wms-assess.log.%d.%i{yyyy-MM-dd}.gz</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+            <!--超过1MB进行分割-->
+            <maxFileSize>1MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d [%X{traceId}] [${LOG_APP_NAME}] [%thread] %-5level %logger{50} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <springProfile name="dev,test,uat,prod">
+        <root level="INFO">
+            <appender-ref ref="FILE" />
+            <appender-ref ref="ERROR_LOG"/>
+            <appender-ref ref="BIZ_ROLLING_FILE"/>
+        </root>
+    </springProfile>
+    <springProfile name="local">
+        <root level="DEBUG">
+            <appender-ref ref="FILE" />
+            <appender-ref ref="ERROR_LOG"/>
+            <appender-ref ref="BIZ_ROLLING_FILE"/>
+        </root>
+        <!--日志输出设置 -->
+        <!--<logger name="com.yangkgk.baseproject.mapper" level="DEBUG"/>-->
+        <!--<logger name="org.mybatis" level="DEBUG"/>-->
+    </springProfile>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE" />
+    </root>
+
+    <!--将接口调用日志打印到指定文件
+    1、定义access_log
+    2、配置此logger
+    3、在代码中获取此日志类，记录日志
+    private static Logger logger = LoggerFactory.getLogger("AccessLog");-->
+    <logger name="AccessLog" additivity="false">
+        <appender-ref ref="access_log"/>
+    </logger>
+
+
+</configuration>

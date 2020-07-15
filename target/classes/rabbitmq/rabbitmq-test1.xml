@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+    <!-- 测试队列 -->
+    <rabbit:queue id="springboot-base-project-rabbit-q-test1" durable="false" auto-delete="false"
+                  exclusive="false" name="springboot-base-project-rabbit-q-test1" declared-by="rabbitAdmin">
+        <rabbit:queue-arguments>
+            <!--绑定死信交换器-->
+            <entry key="x-dead-letter-exchange" value="springboot-base-project-rabbit-x-exchange-dead" />
+            <!--定义死信路由，不设置默认就是正常队列路由-->
+            <!--<entry key="x-dead-letter-routing-key" value="springboot-base-project-rabbit-r-exchange-dead" />-->
+        </rabbit:queue-arguments>
+    </rabbit:queue>
+
+    <rabbit:queue id="springboot-base-project-rabbit-q-test1-dead" durable="false" auto-delete="false"
+                  exclusive="false" name="springboot-base-project-rabbit-q-test1-dead" declared-by="rabbitAdmin">
+        <rabbit:queue-arguments>
+            <!--绑定正常交换器-->
+            <entry key="x-dead-letter-exchange" value="springboot-base-project-rabbit-x-exchange" />
+            <entry key="x-message-ttl">
+                <!-- 设置消息过期时间，死信队列中放10分钟，返回正常队列 -->
+                <value type="java.lang.Long">600000</value>
+            </entry>
+        </rabbit:queue-arguments>
+    </rabbit:queue>
+    
+</beans>
