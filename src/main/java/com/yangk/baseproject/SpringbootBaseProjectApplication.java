@@ -10,10 +10,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableRabbit
 @EnableFeignClients
 @MapperScan("com.yangk.baseproject.mapper")
-public class WmsAuApplication {
+public class SpringbootBaseProjectApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WmsAuApplication.class, args);
+        SpringApplication.run(SpringbootBaseProjectApplication.class, args);
     }
 
 }

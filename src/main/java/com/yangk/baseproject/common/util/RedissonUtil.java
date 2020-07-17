@@ -40,4 +40,9 @@ public class RedissonUtil {
         log.info("没有获取到分布式锁。key: {} , leaseTime: {}",key,leaseTime);
         return false;
     }
+
+    public void unlock(String key) {
+        RLock redLock = redissonClient.getLock(key);
+        redLock.unlock();
+    }
 }

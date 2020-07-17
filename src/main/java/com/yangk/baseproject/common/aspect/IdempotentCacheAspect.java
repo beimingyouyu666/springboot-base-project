@@ -171,6 +171,8 @@ public class IdempotentCacheAspect {
 //            String cacheResult = jedisClusterUtil.get(resultKey);
             String cacheResult = (String) redisUtil.get(resultKey);
             if (StringUtils.isNotEmpty(cacheResult)) {
+                log.debug("debug 幂等拦截，将缓存的响应返回，cacheResult:{}",cacheResult);
+                log.info("幂等拦截，将缓存的响应返回，cacheResult:{}",cacheResult);
                 // 如果已存在，反序列化为对象返回
                 return JSON.parseObject(cacheResult, returnType);
             }
@@ -190,6 +192,7 @@ public class IdempotentCacheAspect {
                 Object result = pjp.proceed();
 //                jedisClusterUtil.set(resultKey, JSON.toJSONString(result), annotation.cacheExpired());
                 redisUtil.set(resultKey, JSON.toJSONString(result), Long.valueOf(annotation.cacheExpired()));
+                redissonUtil.unlock(lockKey);
                 return result;
             }
             // 获取锁失败，未设置获取锁超时时间，抛异常“请求正在执行”
@@ -211,10 +214,10 @@ public class IdempotentCacheAspect {
                 return ResponseMsg.buildUnknownFailMsg();
             }
             throw ex;
-        } /*finally {
+        } finally {
             // 释放锁
-            this.jedisClusterUtil.unLock(lockKey, threadRequestUuid);
-        }*/
+//            this.jedisClusterUtil.unLock(lockKey, threadRequestUuid);
+        }
     }
 
     private Method getMethod(ProceedingJoinPoint joinPoint) {

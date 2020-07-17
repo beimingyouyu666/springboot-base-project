@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class WmsAuApplicationTests {
+public class SpringbootBaseProjectApplicationTests {
 
     @Resource
     private MsgService msgService;

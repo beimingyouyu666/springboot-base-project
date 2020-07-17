@@ -1,11 +1,11 @@
 package com.yangk.baseproject.mapper;
 
-import com.yangk.baseproject.WmsAuApplicationTests;
+import com.yangk.baseproject.SpringbootBaseProjectApplicationTests;
 import com.yangk.baseproject.domain.dos.UserDO;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class UserMapperTest extends WmsAuApplicationTests {
+public class UserMapperTest extends SpringbootBaseProjectApplicationTests {
 
     @Autowired
     private UserMapper userMapper;

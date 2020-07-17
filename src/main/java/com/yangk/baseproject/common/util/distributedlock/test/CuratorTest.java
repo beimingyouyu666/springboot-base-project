@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 @Slf4j
 public class CuratorTest {
 
-    @Autowired
+    @Autowired(required = false)
     private CuratorFramework curatorFramework;
 
     @RequestMapping("getCurator")

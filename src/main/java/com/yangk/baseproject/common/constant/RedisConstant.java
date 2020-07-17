@@ -9,7 +9,8 @@ package com.yangk.baseproject.common.constant;
  */
 public class RedisConstant {
 
-    public static final String KEY_PREFIX = "wms:au:cache:";
+//    public static final String KEY_PREFIX = "wms:au:cache:";
+    public static final String KEY_PREFIX = "base:cache";
 
     /**
      默认超时时间，12小时

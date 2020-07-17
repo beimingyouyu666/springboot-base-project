@@ -45,24 +45,24 @@
     </appender>
 
     <!--业务日志 -->
-    <appender name="BIZ_ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${LOG_BASE}/wms-biz.log</file>
-        <!--只打印INFO-->
-        <filter class="ch.qos.logback.classic.filter.LevelFilter">
-            <level>INFO</level>
-            <onMatch>ACCEPT</onMatch>
-            <onMismatch>DENY</onMismatch>
-        </filter>
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${LOG_BASE}/backup/wms-biz.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
-            <!--日志保存天数-->
-            <maxHistory>30</maxHistory>
-            <totalSizeCap>5GB</totalSizeCap>
-        </rollingPolicy>
-        <encoder>
-            <pattern>%d [%X{traceId}] [${LOG_APP_NAME}] [%thread] %-5level %logger{50} - %msg%n</pattern>
-        </encoder>
-    </appender>
+    <!--<appender name="BIZ_ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+        <!--<file>${LOG_BASE}/wms-biz.log</file>-->
+        <!--&lt;!&ndash;只打印INFO&ndash;&gt;-->
+        <!--<filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+            <!--<level>INFO</level>-->
+            <!--<onMatch>ACCEPT</onMatch>-->
+            <!--<onMismatch>DENY</onMismatch>-->
+        <!--</filter>-->
+        <!--<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+            <!--<fileNamePattern>${LOG_BASE}/backup/wms-biz.log.%d{yyyy-MM-dd}.gz</fileNamePattern>-->
+            <!--&lt;!&ndash;日志保存天数&ndash;&gt;-->
+            <!--<maxHistory>30</maxHistory>-->
+            <!--<totalSizeCap>5GB</totalSizeCap>-->
+        <!--</rollingPolicy>-->
+        <!--<encoder>-->
+            <!--<pattern>%d [%X{traceId}] [${LOG_APP_NAME}] [%thread] %-5level %logger{50} - %msg%n</pattern>-->
+        <!--</encoder>-->
+    <!--</appender>-->
 
     <!--监控接口调用日志-->
     <appender name="access_log" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -90,17 +90,17 @@
         <root level="INFO">
             <appender-ref ref="FILE" />
             <appender-ref ref="ERROR_LOG"/>
-            <appender-ref ref="BIZ_ROLLING_FILE"/>
         </root>
     </springProfile>
     <springProfile name="local">
         <root level="DEBUG">
+            <appender-ref ref="STDOUT" />
             <appender-ref ref="FILE" />
             <appender-ref ref="ERROR_LOG"/>
-            <appender-ref ref="BIZ_ROLLING_FILE"/>
         </root>
+        <logger name="com.yangk" level="DEBUG"/>
         <!--日志输出设置 -->
-        <!--<logger name="com.yangkgk.baseproject.mapper" level="DEBUG"/>-->
+        <!--<logger name="com.yangk.baseproject.mapper" level="DEBUG"/>-->
         <!--<logger name="org.mybatis" level="DEBUG"/>-->
     </springProfile>
 

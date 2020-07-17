@@ -15,7 +15,8 @@ import org.springframework.context.annotation.Configuration;
  * @Version 1.0
  * @blame yangkun
  */
-@Configuration
+//@Configuration
+// TODO: 2020/7/17 先注释
 public class CuratorConfig {
 
     @Autowired
@@ -29,8 +30,8 @@ public class CuratorConfig {
 
     // 重试休眠时间
     private static final int SLEEP_TIME_MS = 1000;
-    // 最大重试1000次
-    private static final int MAX_RETRIES = 1000;
+    // 最大重试5次
+    private static final int MAX_RETRIES = 5;
     //会话超时时间
     private static final int SESSION_TIMEOUT = 30 * 1000;
     //连接超时时间

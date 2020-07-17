@@ -145,8 +145,10 @@ public class ZookeeperUtil {
     /**
      * 测试方法  初始化
      */
-    @PostConstruct
+//    @PostConstruct
+    // TODO: 2020/7/17 先注释
     public void init() {
+
         String path = "/zk-watcher-2";
         logger.info("【执行初始化测试方法。。。。。。。。。。。。】");
         createNode(path, "测试");
@@ -154,7 +156,7 @@ public class ZookeeperUtil {
         logger.info("【执行初始化测试方法getData返回值。。。。。。。。。。。。】={}", value);
 
         // 删除节点触发 监听事件
-        updateNode(path,"测试修改");
+        updateNode(path, "测试修改");
         deleteNode(path);
 
     }

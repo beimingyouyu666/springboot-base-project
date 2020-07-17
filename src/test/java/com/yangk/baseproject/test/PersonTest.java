@@ -1,6 +1,6 @@
 package com.yangk.baseproject.test;
 
-import com.yangk.baseproject.WmsAuApplicationTests;
+import com.yangk.baseproject.SpringbootBaseProjectApplicationTests;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -13,7 +13,7 @@ import java.util.Map;
  * @Version 1.0
  * @blame yangkun
  */
-public class PersonTest extends WmsAuApplicationTests {
+public class PersonTest extends SpringbootBaseProjectApplicationTests {
 
     @Autowired
     private Map<String,Person> map;
