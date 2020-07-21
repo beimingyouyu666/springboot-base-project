@@ -1,0 +1,63 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.w3.org/1999/xhtml" layout:decorator="layout">
+
+<!--上传excel的模板代码-->
+
+<head th:include="layout :: htmlhead" th:with="title='批量修改打包规则'"></head>
+<section layout:fragment="js_layout">
+    <script th:src="@{/js/packagerule/上传下载excel示例代码.js}" defer="defer"></script>
+</section>
+<section layout:fragment="content">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/detail_reset_css.css}"/>
+    <!--右侧主体内容-->
+    <div class="layout-article">
+        <div class="layout-title" style="background-color: rgb(220, 227, 236);">
+            <span>示例</span>
+        </div>
+        <div class="layout-detail" style="background-color: rgb(236, 240, 245);min-height: calc(100vh - 172px);">
+            <div style="margin-top: 10px; text-align: left">
+                <form id="batchUpdateForm" enctype="multipart/form-data">
+                    <div class="col-md-3 no-padding">
+                        <input id="showPath" class="form-control" readonly="true"
+                               style="width: 400px" autocomplete="off" />
+                    </div>
+                    <div class="col-md-4 no-padding" style="text-align: left">
+					<span class="btn btn-primary fileinput-button"> <span>浏览...</span>
+						<input id="file" name="file" type="file"
+                               style="opacity: 0; filter: alpha(opacity = 0); position: absolute; top: 2px; left: 0px; width:60px;" />
+					</span>
+                        <input id="batchUpload" type="button" class="btn btn-primary"
+                               style="width: 80px"  value="上传">
+                        <a href="javascript:;" id="exportTemplate">下载导入模板</a>
+                    </div>
+                </form>
+            </div>
+
+            <br>
+            <br>
+
+            <div id="uploadStatusDiv" class="my_detail_right_content_box" style="display: none">
+                <p class="my_detail_right_content_title">文件上传状态：</p>
+                <p class="my_detail_right_content_title" id="uploadStatus"></p>
+            </div>
+
+
+            <div id="templateExport" style="display:none;">
+            </div>
+
+            <div id="errorResult" style="display:none;">
+            </div>
+        </div>
+
+        <!--遮罩-->
+        <div id="mask" style="background: rgba(0,0,0,0.7);position: fixed;top: 0;left: 0;bottom: 0;height: 100vh;width: 100%;text-align: center;line-height: 100vh;z-index: 9999;display: none;">
+            <img th:src="@{/img/loading.gif}" alt="" />
+        </div>
+
+
+
+
+    </div>
+</section>
+
+</html>
