@@ -3,10 +3,83 @@
   <component name="ChangeListManager">
     <list default="true" id="07081fce-2d35-4099-ba22-4e751f07ce9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-base-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base-project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/SpringbootBaseProjectApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/annotation/IdempotentCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/aspect/EfficiencyMonitorAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/aspect/IdempotentCacheAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/aspect/RemoteEfficiencyMonitorAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/config/FilterRegistrationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/config/RedisClusterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/config/RedisClusterProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/config/RedissonConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/constant/ConsulPropertiesKeyConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/constant/RabbitmqConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/constant/RedisConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/enums/EnumCommomSysErrorCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/exception/BusinessRuntimeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/filter/LogFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/config/BaseRabbitmqConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/consumer/AbstractRabbitConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/converter/FastJsonMessageConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/domain/BaseMsgDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/domain/RabbitmqMsgDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/service/MsgService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/service/impl/RabbitmqConfirmServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/service/impl/RabbitmqServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/test/MqConsumerTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/test/MqConsumerTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/test/MqSendTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/redis/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/redis/RedisUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/redis/test/RedisTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/HttpClientUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/JedisClusterUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/OperationExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/RedissonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/XMLUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/AbstractDistributedLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/CuratorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/DistributedLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/ZkLockWithCuratorTemplateLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/ZkSequenTemplateLock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/ZkSequenTemplateLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/test/CuratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelWriterFactroy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/exceltest/PackageRuleDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/exceltest/ParcelQuery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/exceltest/TestExcelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/CellMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExcelExportUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExcelExportUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelForModuleUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelForModuleUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelModuleSheetDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelModuleWorkbookDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/WatcherApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/ZookeeperConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/ZookeeperProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/ZookeeperUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/test/ZookeeperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/dos/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/dos/UserDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/dto/ParcelDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/dto/ParcelShelfDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/request/RequestMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/response/ResponseMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/mapper/PersonMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/remote/ParcelShelfRemote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/test/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/test/PersonImpl1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/test/PersonImpl2.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +92,18 @@
     <session id="-1606445520">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="5" />
           <entry key="html" value="1" />
-          <entry key="java" value="44" />
+          <entry key="java" value="46" />
           <entry key="js" value="1" />
           <entry key="md" value="2" />
           <entry key="properties" value="3" />
@@ -41,7 +115,7 @@
         <counts>
           <entry key="CLASS" value="5" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="44" />
+          <entry key="JAVA" value="46" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
@@ -53,7 +127,7 @@
         <counts>
           <entry key="dummy" value="5" />
           <entry key="html" value="26" />
-          <entry key="java" value="159" />
+          <entry key="java" value="171" />
           <entry key="js" value="48" />
           <entry key="md" value="33" />
           <entry key="properties" value="4" />
@@ -64,7 +138,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="26" />
-          <entry key="JAVA" value="159" />
+          <entry key="JAVA" value="171" />
           <entry key="JavaScript" value="48" />
           <entry key="Markdown" value="33" />
           <entry key="PLAIN_TEXT" value="9" />
@@ -79,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="231" column="21" lean-forward="true" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
+            <state relative-caret-position="6699">
+              <caret line="231" column="21" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -98,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/PersonImpl1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="406">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
               <folding>
                 <element signature="e#274#275#0" expanded="true" />
                 <element signature="e#327#328#0" expanded="true" />
@@ -111,7 +185,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/crypto/SecureUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="12557">
               <caret line="502" column="22" selection-start-line="502" selection-start-column="22" selection-end-line="502" selection-end-column="22" />
             </state>
           </provider>
@@ -120,7 +194,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/MD5Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
+            <state relative-caret-position="986">
               <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding>
                 <element signature="e#1275#1276#0" expanded="true" />
@@ -134,8 +208,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="453">
-                <caret line="476" column="35" lean-forward="true" selection-start-line="476" selection-start-column="35" selection-end-line="476" selection-end-column="35" />
+              <first_editor relative-caret-position="13804">
+                <caret line="476" column="35" selection-start-line="476" selection-start-column="35" selection-end-line="476" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
@@ -145,7 +219,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/cookie/GlobalCookieManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="290">
               <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
@@ -154,7 +228,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/cookie/ThreadLocalCookieStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
+            <state relative-caret-position="348">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
@@ -163,7 +237,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/server/SimpleServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
+            <state relative-caret-position="290">
               <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
@@ -172,7 +246,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/server/handler/ActionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="290">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
@@ -181,7 +255,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/GlobalHeaders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-850">
+            <state relative-caret-position="319">
               <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
@@ -190,8 +264,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/HttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="153" column="77" lean-forward="true" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
+            <state relative-caret-position="3393">
+              <caret line="153" column="77" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -199,8 +273,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/HttpRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="941" column="15" lean-forward="true" selection-start-line="941" selection-start-column="15" selection-end-line="941" selection-end-column="15" />
+            <state relative-caret-position="24911">
+              <caret line="941" column="15" selection-start-line="941" selection-start-column="15" selection-end-line="941" selection-end-column="15" />
               <folding>
                 <element signature="e#3622#3623#0" expanded="true" />
                 <element signature="e#3684#3685#0" expanded="true" />
@@ -216,7 +290,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/core/net/url/UrlBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
+            <state relative-caret-position="3741">
               <caret line="140" column="29" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
             </state>
           </provider>
@@ -225,17 +299,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/Hutool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
+            <state relative-caret-position="696">
               <caret line="38" selection-start-line="33" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/aop/interceptor/JdkInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -243,12 +317,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4777">
+            <state relative-caret-position="899">
               <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
               <folding>
                 <element signature="e#3565#3566#0" expanded="true" />
                 <element signature="e#3592#3593#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.1/redisson-3.13.1-sources.jar!/org/redisson/config/ClusterServersConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -295,6 +387,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/PersonImpl1.java" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/GroupClassPathDefinitionScanner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java" />
       </list>
     </option>
   </component>
@@ -385,7 +478,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -458,6 +550,18 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yangk" type="462c0819:PsiDirectoryNode" />
               <item name="baseproject" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-base-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangk" type="462c0819:PsiDirectoryNode" />
+              <item name="baseproject" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -471,17 +575,6 @@
               <item name="baseproject" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="response" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-base-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yangk" type="462c0819:PsiDirectoryNode" />
-              <item name="baseproject" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
@@ -614,6 +707,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -623,7 +717,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595493444677" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595493636238" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -702,7 +796,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32924107" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -793,9 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,6 +1020,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9.jar!/cn/hutool/crypto/SecureUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1316">
+          <caret line="185" column="22" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/GroupClassPathDefinitionScanner.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6699">
+          <caret line="231" column="21" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -936,9 +1043,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/PersonImpl1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/crypto/SecureUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12557">
+          <caret line="502" column="22" selection-start-line="502" selection-start-column="22" selection-end-line="502" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/MD5Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="986">
           <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding>
             <element signature="e#1275#1276#0" expanded="true" />
@@ -947,87 +1072,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9.jar!/cn/hutool/crypto/SecureUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="185" column="22" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6315#6316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="453">
-            <caret line="476" column="35" lean-forward="true" selection-start-line="476" selection-start-column="35" selection-end-line="476" selection-end-column="35" />
+          <first_editor relative-caret-position="13804">
+            <caret line="476" column="35" selection-start-line="476" selection-start-column="35" selection-end-line="476" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/crypto/SecureUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="502" column="22" selection-start-line="502" selection-start-column="22" selection-end-line="502" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/cookie/GlobalCookieManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="290">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/cookie/ThreadLocalCookieStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
+        <state relative-caret-position="348">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/server/SimpleServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
+        <state relative-caret-position="290">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/server/handler/ActionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="290">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/GlobalHeaders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
+        <state relative-caret-position="319">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/core/net/url/UrlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="140" column="29" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="153" column="77" lean-forward="true" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
+        <state relative-caret-position="3393">
+          <caret line="153" column="77" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/HttpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="941" column="15" lean-forward="true" selection-start-line="941" selection-start-column="15" selection-end-line="941" selection-end-column="15" />
+        <state relative-caret-position="24911">
+          <caret line="941" column="15" selection-start-line="941" selection-start-column="15" selection-end-line="941" selection-end-column="15" />
           <folding>
             <element signature="e#3622#3623#0" expanded="true" />
             <element signature="e#3684#3685#0" expanded="true" />
@@ -1039,27 +1139,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/Hutool.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/core/net/url/UrlBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="38" selection-start-line="33" selection-end-line="38" />
+        <state relative-caret-position="3741">
+          <caret line="140" column="29" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/PersonImpl1.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/Hutool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="696">
+          <caret line="38" selection-start-line="33" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4777">
+        <state relative-caret-position="899">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
             <element signature="e#3565#3566#0" expanded="true" />
@@ -1068,30 +1164,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="231" column="21" lean-forward="true" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/GroupClassPathDefinitionScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="85" lean-forward="true" selection-start-line="12" selection-start-column="85" selection-end-line="12" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/aop/interceptor/JdkInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.1/redisson-3.13.1-sources.jar!/org/redisson/config/ClusterServersConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
         </state>
       </provider>
     </entry>

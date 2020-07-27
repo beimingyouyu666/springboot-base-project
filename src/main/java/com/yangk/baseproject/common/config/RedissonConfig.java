@@ -51,6 +51,7 @@ public class RedissonConfig {
         }
         Config config = new Config();
         config.useClusterServers().addNodeAddress(split);
+//   设置密码     config.useClusterServers().setPassword()
         return Redisson.create(config);
     }
 }
