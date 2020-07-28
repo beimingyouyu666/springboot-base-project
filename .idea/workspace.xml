@@ -2,84 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07081fce-2d35-4099-ba22-4e751f07ce9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/SpringbootBaseProjectApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/annotation/IdempotentCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/aspect/EfficiencyMonitorAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/aspect/IdempotentCacheAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/aspect/RemoteEfficiencyMonitorAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/config/FilterRegistrationConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/config/RedisClusterConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/config/RedisClusterProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/config/RedissonConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/constant/ConsulPropertiesKeyConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/constant/RabbitmqConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/constant/RedisConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/enums/EnumCommomSysErrorCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/exception/BusinessRuntimeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/filter/LogFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/config/BaseRabbitmqConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/consumer/AbstractRabbitConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/converter/FastJsonMessageConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/domain/BaseMsgDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/domain/RabbitmqMsgDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/service/MsgService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/service/impl/RabbitmqConfirmServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/service/impl/RabbitmqServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/test/MqConsumerTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/test/MqConsumerTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/rabbitmq/test/MqSendTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/redis/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/redis/RedisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/redis/test/RedisTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/HttpClientUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/JedisClusterUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/MD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/OperationExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/RedissonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/XMLUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/AbstractDistributedLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/CuratorConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/DistributedLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/ZkLockWithCuratorTemplateLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/ZkSequenTemplateLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/ZkSequenTemplateLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/distributedlock/test/CuratorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelWriterFactroy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/exceltest/PackageRuleDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/exceltest/ParcelQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/exceltest/TestExcelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/CellMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExcelExportUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExcelExportUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelForModuleUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelForModuleUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelModuleSheetDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelModuleWorkbookDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/WatcherApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/ZookeeperConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/ZookeeperProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/ZookeeperUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/common/zookeeper/test/ZookeeperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/dos/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/dos/UserDO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/dto/ParcelDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/dto/ParcelShelfDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/request/RequestMsg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/domain/response/ResponseMsg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/mapper/PersonMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/remote/ParcelShelfRemote.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/test/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/test/PersonImpl1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yangk/baseproject/test/PersonImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,10 +27,10 @@
         <counts>
           <entry key="class" value="5" />
           <entry key="html" value="1" />
-          <entry key="java" value="46" />
+          <entry key="java" value="49" />
           <entry key="js" value="1" />
           <entry key="md" value="2" />
-          <entry key="properties" value="3" />
+          <entry key="properties" value="5" />
           <entry key="txt" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -115,11 +39,11 @@
         <counts>
           <entry key="CLASS" value="5" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="46" />
+          <entry key="JAVA" value="49" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="3" />
+          <entry key="Properties" value="5" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -127,10 +51,10 @@
         <counts>
           <entry key="dummy" value="5" />
           <entry key="html" value="26" />
-          <entry key="java" value="171" />
+          <entry key="java" value="255" />
           <entry key="js" value="48" />
           <entry key="md" value="33" />
-          <entry key="properties" value="4" />
+          <entry key="properties" value="67" />
           <entry key="txt" value="4" />
           <entry key="xml" value="47" />
         </counts>
@@ -138,11 +62,11 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="26" />
-          <entry key="JAVA" value="171" />
+          <entry key="JAVA" value="255" />
           <entry key="JavaScript" value="48" />
           <entry key="Markdown" value="33" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Properties" value="4" />
+          <entry key="Properties" value="67" />
           <entry key="XML" value="47" />
         </counts>
       </usages-collector>
@@ -165,6 +89,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
               <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -327,11 +260,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="24" selection-start-column="24" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="683">
+              <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -341,6 +283,40 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
               <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedisClusterProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/BoyProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+              <folding>
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -360,6 +336,8 @@
       <find>Copy</find>
       <find>SXSSFWorkbook</find>
       <find>setRedis</find>
+      <find>config.prefix</find>
+      <find>consul.port</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -368,7 +346,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/batchImport.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/上传下载excel示例代码.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/上传下载excel示例代码.js" />
@@ -388,6 +365,9 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/GroupClassPathDefinitionScanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/BoyProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -550,8 +530,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yangk" type="462c0819:PsiDirectoryNode" />
               <item name="baseproject" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
@@ -717,7 +696,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595493636238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595898162520" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -778,7 +757,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -790,13 +769,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2480447" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44022346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32849163" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -829,22 +808,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelModuleSheetDTO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelModuleWorkbookDTO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.1.2/poi-4.1.2.jar!/org/apache/poi/hssf/util/HSSFColor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.1.2/poi-4.1.2-sources.jar!/org/apache/poi/ss/usermodel/Font.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1002,13 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4205">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -1180,8 +1136,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="683">
+          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedisClusterProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/BoyProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,11 @@
 {
   "groups": [
     {
+      "name": "boy",
+      "type": "com.yangk.baseproject.common.config.BoyProperties",
+      "sourceType": "com.yangk.baseproject.common.config.BoyProperties"
+    },
+    {
       "name": "spring.redis.cluster.cache",
       "type": "com.yangk.baseproject.common.config.RedisClusterProperties",
       "sourceType": "com.yangk.baseproject.common.config.RedisClusterProperties"
@@ -12,6 +17,16 @@
     }
   ],
   "properties": [
+    {
+      "name": "boy.age",
+      "type": "java.lang.String",
+      "sourceType": "com.yangk.baseproject.common.config.BoyProperties"
+    },
+    {
+      "name": "boy.name",
+      "type": "java.lang.String",
+      "sourceType": "com.yangk.baseproject.common.config.BoyProperties"
+    },
     {
       "name": "spring.redis.cluster.cache.cluster-nodes",
       "type": "java.lang.String",

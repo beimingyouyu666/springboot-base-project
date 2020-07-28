@@ -1,6 +1,7 @@
 package com.yangk.baseproject.controller;
 
 import com.yangk.baseproject.common.annotation.IdempotentCache;
+import com.yangk.baseproject.common.config.BoyProperties;
 import com.yangk.baseproject.domain.dto.ParcelShelfDTO;
 import com.yangk.baseproject.domain.request.RequestMsg;
 import com.yangk.baseproject.domain.response.ResponseMsg;
@@ -32,6 +33,13 @@ public class TestController {
     private HttpServletRequest request;
     @Value("${server.port}")
     private String port;
+    @Autowired
+    private BoyProperties boyProperties;
+
+    @RequestMapping("getConfig")
+    public String getConfig(){
+        return boyProperties.getName();
+    }
 
     @RequestMapping("test")
     public String test() {
