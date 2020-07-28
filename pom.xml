@@ -252,6 +252,12 @@
             <version>5.3.9</version>
         </dependency>
 
+        <!--整合elasticsearch-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+
 
     </dependencies>
 
@@ -269,6 +275,7 @@
     </dependencyManagement>
 
     <profiles>
+        <!--通过选定不同的profile进行环境隔离，注册不同环境的consul-->
         <profile>
             <id>local</id>
             <properties>

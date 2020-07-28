@@ -487,3 +487,51 @@ nginx.conf文件修改配置
  hutool-poi	针对POI中Excel和Word的封装
  
  hutool-socket	基于Java的NIO和AIO的Socket封装
+ 
+ 
+ ## 整合elasticsearch
+ 
+ 参考：https://www.jianshu.com/p/bd2da1cde6f5
+ 
+ 1、引入依赖
+ ```java
+        <!--整合elasticsearch-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
+        </dependency>
+```
+ 
+ 2、加配置
+  ```java
+ #elasticsearch配置
+ #集群名称
+ spring.data.elasticsearch.cluster-name=elasticsearch
+ #节点
+ spring.data.elasticsearch.cluster-nodes=114.215.147.110:9300
+
+ ```
+ 
+ 3、新建es使用entity
+  ```java
+ @Document(indexName = "cos", type = "package", shards = 5, replicas = 1, refreshInterval = "-1")
+ @Data
+ public class PackageEntity {
+ 
+     @Id
+     private String id;
+ 
+     /**
+      * 包裹信息
+      */
+     private PackageAddMqMessageDTO packageAddMqMessageDTO;
+ 
+ }
+ ```
+ 
+ 4、新增es操作mapper，继承 ElasticsearchRepository，类似于JPA的操作
+  ```java
+ public interface PackageEsMapper extends ElasticsearchRepository<PackageEntity,String> {
+ 
+ }
+ ```

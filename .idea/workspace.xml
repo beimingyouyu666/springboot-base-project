@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07081fce-2d35-4099-ba22-4e751f07ce9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-base-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-base-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,34 +19,35 @@
     <session id="-1606445520">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
+          <entry key="class" value="9" />
           <entry key="html" value="1" />
-          <entry key="java" value="49" />
+          <entry key="java" value="60" />
           <entry key="js" value="1" />
-          <entry key="md" value="2" />
-          <entry key="properties" value="5" />
+          <entry key="md" value="3" />
+          <entry key="properties" value="6" />
           <entry key="txt" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="9" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="49" />
+          <entry key="JAVA" value="60" />
           <entry key="JavaScript" value="1" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="5" />
+          <entry key="Properties" value="6" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -51,23 +55,23 @@
         <counts>
           <entry key="dummy" value="5" />
           <entry key="html" value="26" />
-          <entry key="java" value="255" />
+          <entry key="java" value="866" />
           <entry key="js" value="48" />
-          <entry key="md" value="33" />
-          <entry key="properties" value="67" />
+          <entry key="md" value="151" />
+          <entry key="properties" value="101" />
           <entry key="txt" value="4" />
-          <entry key="xml" value="47" />
+          <entry key="xml" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="26" />
-          <entry key="JAVA" value="255" />
+          <entry key="JAVA" value="866" />
           <entry key="JavaScript" value="48" />
-          <entry key="Markdown" value="33" />
+          <entry key="Markdown" value="151" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Properties" value="67" />
-          <entry key="XML" value="47" />
+          <entry key="Properties" value="101" />
+          <entry key="XML" value="108" />
         </counts>
       </usages-collector>
     </session>
@@ -77,230 +81,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6699">
-              <caret line="231" column="21" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
+            <state relative-caret-position="246">
+              <caret line="254" selection-start-line="254" selection-end-line="258" selection-end-column="21" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="492">
+              <caret line="50" selection-start-line="50" selection-end-line="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/PersonImpl1.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="455">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="47" />
               <folding>
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/crypto/SecureUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/esentity/PackageEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12557">
-              <caret line="502" column="22" selection-start-line="502" selection-start-column="22" selection-end-line="502" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/MD5Util.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-              <folding>
-                <element signature="e#1275#1276#0" expanded="true" />
-                <element signature="e#1322#1323#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="13804">
-                <caret line="476" column="35" selection-start-line="476" selection-start-column="35" selection-end-line="476" selection-end-column="35" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/cookie/GlobalCookieManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/cookie/ThreadLocalCookieStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/server/SimpleServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/server/handler/ActionHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/GlobalHeaders.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/HttpUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3393">
-              <caret line="153" column="77" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/http/HttpRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24911">
-              <caret line="941" column="15" selection-start-line="941" selection-start-column="15" selection-end-line="941" selection-end-column="15" />
-              <folding>
-                <element signature="e#3622#3623#0" expanded="true" />
-                <element signature="e#3684#3685#0" expanded="true" />
-                <element signature="e#4238#4239#0" expanded="true" />
-                <element signature="e#4291#4292#0" expanded="true" />
-                <element signature="e#18654#18655#0" expanded="true" />
-                <element signature="e#18687#18688#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/core/net/url/UrlBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3741">
-              <caret line="140" column="29" selection-start-line="140" selection-start-column="29" selection-end-line="140" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/Hutool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="38" selection-start-line="33" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/aop/interceptor/JdkInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-              <folding>
-                <element signature="e#3565#3566#0" expanded="true" />
-                <element signature="e#3592#3593#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.1/redisson-3.13.1-sources.jar!/org/redisson/config/ClusterServersConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedisClusterProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/BoyProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="269">
+              <caret line="17" selection-start-line="17" selection-end-line="29" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -309,14 +123,112 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/dto/PackageAddMqMessageDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="936">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
               <folding>
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.6.RELEASE/spring-data-elasticsearch-3.1.6.RELEASE-sources.jar!/org/springframework/data/elasticsearch/annotations/Document.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="616">
+                <caret line="502" column="3" lean-forward="true" selection-start-line="502" selection-start-column="3" selection-end-line="502" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/esmapper/PackageEsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.6.RELEASE/spring-data-elasticsearch-3.1.6.RELEASE-sources.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="36" column="22" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/escontroller/EsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1168">
+              <caret line="76" column="40" lean-forward="true" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/index/query/QueryBuilder.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.6.RELEASE/spring-data-elasticsearch-3.1.6.RELEASE-sources.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchCrudRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="30" column="88" lean-forward="true" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Iterable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -338,6 +250,7 @@
       <find>setRedis</find>
       <find>config.prefix</find>
       <find>consul.port</find>
+      <find>zook</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -360,14 +273,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/redis/test/RedisTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/Test11.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/test.txt" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/PersonImpl1.java" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/GroupClassPathDefinitionScanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/BoyProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/esentity/PackageEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/esmapper/PackageEsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/dto/PackageAddMqMessageDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/escontroller/EsController.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -423,9 +340,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="20" />
-    <option name="width" value="1680" />
-    <option name="height" value="940" />
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -458,6 +376,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -530,7 +450,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yangk" type="462c0819:PsiDirectoryNode" />
               <item name="baseproject" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
@@ -541,7 +462,9 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yangk" type="462c0819:PsiDirectoryNode" />
               <item name="baseproject" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="escontroller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
@@ -552,8 +475,22 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yangk" type="462c0819:PsiDirectoryNode" />
               <item name="baseproject" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="response" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="esentity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-base-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yangk" type="462c0819:PsiDirectoryNode" />
+              <item name="baseproject" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="esmapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
@@ -566,127 +503,10 @@
               <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="cookie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-base-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: cn.hutool:hutool-all:5.3.9" type="70bed36:NamedLibraryElementNode" />
-              <item name="hutool-all-5.3.9.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="hutool" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="oshi" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -696,7 +516,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595898162520" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595926177799" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -757,7 +577,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -769,7 +589,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44022346" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44022346" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -808,110 +628,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.1.2/poi-4.1.2-sources.jar!/org/apache/poi/ss/usermodel/Font.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="187" column="9" selection-start-line="187" selection-start-column="9" selection-end-line="187" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/4.1.2/poi-4.1.2-sources.jar!/org/apache/poi/hssf/util/HSSFColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="120" column="20" lean-forward="true" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/domain/response/ResponseMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/exceltest/PackageRuleDTO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/上传下载excel示例代码.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/上传下载excel示例代码.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/exceltest/ParcelQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="464">
-            <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.2.5/easyexcel-2.2.5-sources.jar!/com/alibaba/excel/ExcelWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.2.5/easyexcel-2.2.5-sources.jar!/com/alibaba/excel/metadata/Sheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelWriterFactroy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/easyexcel/ExcelUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3302">
-          <caret line="99" column="45" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/poi/CellMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/util/excelutil/poi/ExportExcelForModuleUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -984,14 +700,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/GroupClassPathDefinitionScanner.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6699">
-          <caret line="231" column="21" selection-start-line="231" selection-start-column="21" selection-end-line="231" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1001,7 +709,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/test/PersonImpl1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="435">
           <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
           <folding>
             <element signature="e#274#275#0" expanded="true" />
@@ -1025,16 +733,6 @@
             <element signature="e#1275#1276#0" expanded="true" />
             <element signature="e#1322#1323#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="13804">
-            <caret line="476" column="35" selection-start-line="476" selection-start-column="35" selection-end-line="476" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1109,6 +807,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/aop/interceptor/JdkInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="899">
@@ -1120,27 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cn/hutool/hutool-all/5.3.9/hutool-all-5.3.9-sources.jar!/cn/hutool/aop/interceptor/JdkInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.1/redisson-3.13.1-sources.jar!/org/redisson/config/ClusterServersConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1148,17 +832,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedissonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/redisson/redisson/3.13.1/redisson-3.13.1-sources.jar!/org/redisson/config/ClusterServersConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1247">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/RedisClusterProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="16" selection-end-column="61" />
+        <state relative-caret-position="348">
+          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/config/BoyProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1167,19 +865,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="725">
           <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/zookeeper/ZookeeperConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/elasticsearch/ElasticsearchProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="47" />
           <folding>
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.6.RELEASE/spring-data-elasticsearch-3.1.6.RELEASE.jar!/org/springframework/data/elasticsearch/annotations/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.6.RELEASE/spring-data-elasticsearch-3.1.6.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.6.RELEASE/spring-data-elasticsearch-3.1.6.RELEASE-sources.jar!/org/springframework/data/elasticsearch/annotations/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.6.RELEASE/spring-data-elasticsearch-3.1.6.RELEASE-sources.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchCrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="30" column="88" lean-forward="true" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.1.6.RELEASE/spring-data-elasticsearch-3.1.6.RELEASE-sources.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.3/elasticsearch-6.4.3.jar!/org/elasticsearch/index/query/QueryBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/dto/PackageAddMqMessageDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/escontroller/EsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1168">
+          <caret line="76" column="40" lean-forward="true" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="254" selection-start-line="254" selection-end-line="258" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="492">
+          <caret line="50" selection-start-line="50" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/esentity/PackageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="17" selection-start-line="17" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yangk/baseproject/common/elasticsearch/esmapper/PackageEsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" selection-start-line="12" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="616">
+            <caret line="502" column="3" lean-forward="true" selection-start-line="502" selection-start-column="3" selection-end-line="502" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
