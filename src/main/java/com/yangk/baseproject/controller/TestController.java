@@ -38,6 +38,9 @@ public class TestController {
 
     @RequestMapping("getConfig")
     public String getConfig(){
+        log.info("ceshi de s d f");
+        log.info("ceshi de s d f");
+        log.info("ceshi de s d f");
         return boyProperties.getName();
     }
 
