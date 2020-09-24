@@ -1,4 +1,4 @@
-package com.yangk.baseproject.common.util;
+package com.yangk.baseproject.common.exception;
 
 import com.yangk.baseproject.common.exception.BusinessRuntimeException;
 import com.yangk.baseproject.domain.response.ResponseMsg;
